@@ -1,4 +1,6 @@
-# hexo-image-link 
+> modified for my own hexo blog
+
+# hexo-image-link
 
 When enabled hexo `post_asset_folder: true`, convert the markdown image path to asset_img syntax, to make the image display both in typora and hexo.
 
@@ -18,7 +20,6 @@ update link as:-->/.cn//image-20200314080935503.png
 Cause that old packages doen't work, i developed hexo-image-link, you can find more in my blog [Hexo博客写作与图片处理的经验](http://edulinks.cn/2020/03/14/20200314-write-hexo-with-typora/)
 
 鉴于之前的插件不太好用，我开发了这款 hexo-image-link 插件，详细的使用方法，可以参考我的博客 [Hexo博客写作与图片处理的经验](http://edulinks.cn/2020/03/14/20200314-write-hexo-with-typora/)
-
 
 # Usage 用法
 
@@ -40,18 +41,22 @@ drwxr-xr-x@  2 shiqiang  staff    64B  3 15 10:28 20200315-es-monitoring-guide/
 ```
 
 Edit Markdown and insert image.
+
 ```markdown
 ![label](20200315-es-monitoring-guide/image-name.jpg)
 ```
 
 Then generate public files.
+
 ```sh
 $ hexo generate
 ```
 
 # Release Note
+
 * 2022-12-13    Fix problem that unsupport path with space
 
 # 参考资料
+
 1. [hexo-asset-image](https://github.com/xcodebuild/hexo-asset-image)
 2. [hexo-simple-image](https://github.com/Aragakiiii/hexo-simple-image)
